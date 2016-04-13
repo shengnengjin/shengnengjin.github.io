@@ -3,18 +3,18 @@
 <head>
   <meta charset="utf-8">
   
-  <title>首次写博客 | 盛能进的博客</title>
+  <title>本地部署的时候端口被占用之解决 | 盛能进的博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="就是为了生成“随笔”这个标签…yilia主题的标签是在文章里添加，然后自动生成的。">
+  <meta name="description" content="今天准备在本地部署一下，通过http://localhost:4000/查看博客的状态，突然发现无论怎么刷新、怎么clean再generate都无法通过本地查看，而deploy到git之后却是可以的。自己实在是解决不了，就百度了下，有说是4000的端口被其他进程占用了，有个网友说他的被FoxitProtect进程占用了，我一查我的，的确也有这个进程，看来是上次装福昕阅读器的结果，于是就强制在任务管">
 <meta property="og:type" content="article">
-<meta property="og:title" content="首次写博客">
-<meta property="og:url" content="http://shengnengjin.github.io/2015/12/07/首次写博客/index.html">
+<meta property="og:title" content="本地部署的时候端口被占用之解决">
+<meta property="og:url" content="http://shengnengjin.github.io/2016/04/13/本地部署的时候端口被占用之解决/index.html">
 <meta property="og:site_name" content="盛能进的博客">
-<meta property="og:description" content="就是为了生成“随笔”这个标签…yilia主题的标签是在文章里添加，然后自动生成的。">
-<meta property="og:updated_time" content="2015-12-07T07:22:56.000Z">
+<meta property="og:description" content="今天准备在本地部署一下，通过http://localhost:4000/查看博客的状态，突然发现无论怎么刷新、怎么clean再generate都无法通过本地查看，而deploy到git之后却是可以的。自己实在是解决不了，就百度了下，有说是4000的端口被其他进程占用了，有个网友说他的被FoxitProtect进程占用了，我一查我的，的确也有这个进程，看来是上次装福昕阅读器的结果，于是就强制在任务管">
+<meta property="og:updated_time" content="2016-04-13T16:43:43.266Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="首次写博客">
-<meta name="twitter:description" content="就是为了生成“随笔”这个标签…yilia主题的标签是在文章里添加，然后自动生成的。">
+<meta name="twitter:title" content="本地部署的时候端口被占用之解决">
+<meta name="twitter:description" content="今天准备在本地部署一下，通过http://localhost:4000/查看博客的状态，突然发现无论怎么刷新、怎么clean再generate都无法通过本地查看，而deploy到git之后却是可以的。自己实在是解决不了，就百度了下，有说是4000的端口被其他进程占用了，有个网友说他的被FoxitProtect进程占用了，我一查我的，的确也有这个进程，看来是上次装福昕阅读器的结果，于是就强制在任务管">
   
     <link rel="alternative" href="/atom.xml" title="盛能进的博客" type="application/atom+xml">
   
@@ -191,11 +191,11 @@
 		</header>				
 	</div>
 </nav>
-      <div class="body-wrap"><article id="post-首次写博客" class="article article-type-post" itemscope itemprop="blogPost">
+      <div class="body-wrap"><article id="post-本地部署的时候端口被占用之解决" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
-      <a href="/2015/12/07/首次写博客/" class="article-date">
-  	<time datetime="2015-12-06T16:21:39.000Z" itemprop="datePublished">2015-12-07</time>
+      <a href="/2016/04/13/本地部署的时候端口被占用之解决/" class="article-date">
+  	<time datetime="2016-04-13T15:56:05.000Z" itemprop="datePublished">2016-04-13</time>
 </a>
     </div>
   
@@ -208,7 +208,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      首次写博客
+      本地部署的时候端口被占用之解决
     </h1>
   
 
@@ -217,7 +217,7 @@
       <div class="article-info article-info-post">
         
 	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/随笔/">随笔</a></li></ul>
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Hexo/">Hexo</a></li></ul>
 	</div>
 
         
@@ -228,7 +228,22 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>就是为了生成“随笔”这个标签…<br>yilia主题的标签是在文章里添加，然后自动生成的。</p>
+        <p>今天准备在本地部署一下，通过<code>http://localhost:4000/</code>查看博客的状态，突然发现无论怎么刷新、怎么<code>clean</code>再<code>generate</code>都无法通过本地查看，而<code>deploy</code>到git之后却是可以的。自己实在是解决不了，就百度了下，有说是4000的端口被其他进程占用了，有个网友说他的被FoxitProtect进程占用了，我一查我的，的确也有这个进程，看来是上次装福昕阅读器的结果，于是就强制在任务管理器里把它结束了。果然，浏览器那边立刻就刷出来了。</p>
+<p>考虑到并不知道4000会被哪个进程占用，我又查了一下如何通过端口号查占用它的进程，以便能结束它，查到一篇<a href="http://www.cnblogs.com/chenwenbiao/archive/2012/06/24/2559954.html" target="_blank" rel="external">博客</a>，这里仔细介绍了如何在命令行下查询端口被哪个进程占用，以及如何查到进程名称和kill它的方法。</p>
+<h3 id="Windows平台"><a href="#Windows平台" class="headerlink" title="Windows平台"></a>Windows平台</h3><p>使用<code>netstat</code>命令查询PID，然后打开任务管理器，查看对应PID的进程名，结束它。<br>控制台输入：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">netstat -nao | findstr &quot;4000&quot;</span><br></pre></td></tr></table></figure></p>
+<p>返回：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">TCP    127.0.0.1:4000         0.0.0.0:0              LISTENING       10268</span><br><span class="line">TCP    127.0.0.1:4000         127.0.0.1:64572        TIME_WAIT       0</span><br><span class="line">UDP    127.0.0.1:40000        *:*                                    2808</span><br></pre></td></tr></table></figure></p>
+<p>这时可以按前述的打开任务管理器，查找PID为10268的进程，并结束它。当然也可以用命令行的方式：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tasklist | findstr &quot;10268&quot;</span><br></pre></td></tr></table></figure></p>
+<p>返回：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">FoxitProtect.exe             10268 Services                   0     11,048 K</span><br></pre></td></tr></table></figure></p>
+<p>显然是FoxitProtect这个进程占用了4000的端口，用如下命令kill它：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">taskkill /pid 10268</span><br></pre></td></tr></table></figure></p>
+<p>然而返回了这个：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">错误: 无法终止 PID 为 10268 的进程。</span><br><span class="line">原因: 拒绝访问。</span><br></pre></td></tr></table></figure></p>
+<p>查了一番，搞不清楚，还是老老实实在任务管理器里结束吧，反正也找到了PID了。</p>
+<blockquote>
+<p>执行<code>taskkill</code>的时候可能会出现：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">错误: 无法终止 PID 为 10268 的进程。</span><br><span class="line">原因: 只能强行终止这个进程（带/F选项）。</span><br></pre></td></tr></table></figure></p>
+<p>这个时候输入带<code>/F</code>的命令应该是可以的：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">taskkill /F /pid 10268</span><br></pre></td></tr></table></figure></p>
+<p>返回：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">成功: 已终止 PID 为 10268 的进程。</span><br></pre></td></tr></table></figure></p>
+<p>似乎还有按进程名来结束进程的方法，比如强行结束记事本进程：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">taskkill /im notepad.exe /f</span><br></pre></td></tr></table></figure></p>
+</blockquote>
+<p>就这么多。</p>
 
       
     </div>
@@ -238,18 +253,9 @@
     
 <nav id="article-nav">
   
-    <a href="/2015/12/07/电气专业阅读书目/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption"><</strong>
-      <div class="article-nav-title">
-        
-          电气工程课程
-        
-      </div>
-    </a>
   
-  
-    <a href="/2015/12/03/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">Hello World</div>
+    <a href="/2016/03/28/2016-03-28/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">2016-03-28</div>
       <strong class="article-nav-caption">></strong>
     </a>
   
@@ -278,7 +284,7 @@
 
 <div class="duoshuo">
 	<!-- 多说评论框 start -->
-	<div class="ds-thread" data-thread-key="首次写博客" data-title="首次写博客" data-url="http://shengnengjin.github.io/2015/12/07/首次写博客/"></div>
+	<div class="ds-thread" data-thread-key="本地部署的时候端口被占用之解决" data-title="本地部署的时候端口被占用之解决" data-url="http://shengnengjin.github.io/2016/04/13/本地部署的时候端口被占用之解决/"></div>
 	<!-- 多说评论框 end -->
 	<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
 	<script type="text/javascript">
