@@ -11,7 +11,7 @@
 <meta property="og:url" content="http://shengnengjin.github.io/2016/04/13/本地部署的时候端口被占用之解决/index.html">
 <meta property="og:site_name" content="盛能进的博客">
 <meta property="og:description" content="今天准备在本地部署一下，通过http://localhost:4000/查看博客的状态，突然发现无论怎么刷新、怎么clean再generate都无法通过本地查看，而deploy到git之后却是可以的。自己实在是解决不了，就百度了下，有说是4000的端口被其他进程占用了，有个网友说他的被FoxitProtect进程占用了，我一查我的，的确也有这个进程，看来是上次装福昕阅读器的结果，于是就强制在任务管">
-<meta property="og:updated_time" content="2016-04-13T16:43:43.266Z">
+<meta property="og:updated_time" content="2016-04-13T16:47:32.282Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="本地部署的时候端口被占用之解决">
 <meta name="twitter:description" content="今天准备在本地部署一下，通过http://localhost:4000/查看博客的状态，突然发现无论怎么刷新、怎么clean再generate都无法通过本地查看，而deploy到git之后却是可以的。自己实在是解决不了，就百度了下，有说是4000的端口被其他进程占用了，有个网友说他的被FoxitProtect进程占用了，我一查我的，的确也有这个进程，看来是上次装福昕阅读器的结果，于是就强制在任务管">
@@ -228,8 +228,7 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>今天准备在本地部署一下，通过<code>http://localhost:4000/</code>查看博客的状态，突然发现无论怎么刷新、怎么<code>clean</code>再<code>generate</code>都无法通过本地查看，而<code>deploy</code>到git之后却是可以的。自己实在是解决不了，就百度了下，有说是4000的端口被其他进程占用了，有个网友说他的被FoxitProtect进程占用了，我一查我的，的确也有这个进程，看来是上次装福昕阅读器的结果，于是就强制在任务管理器里把它结束了。果然，浏览器那边立刻就刷出来了。</p>
-<p>考虑到并不知道4000会被哪个进程占用，我又查了一下如何通过端口号查占用它的进程，以便能结束它，查到一篇<a href="http://www.cnblogs.com/chenwenbiao/archive/2012/06/24/2559954.html" target="_blank" rel="external">博客</a>，这里仔细介绍了如何在命令行下查询端口被哪个进程占用，以及如何查到进程名称和kill它的方法。</p>
+        <p>今天准备在本地部署一下，通过<code>http://localhost:4000/</code>查看博客的状态，突然发现无论怎么刷新、怎么<code>clean</code>再<code>generate</code>都无法通过本地查看，而<code>deploy</code>到git之后却是可以的。自己实在是解决不了，就百度了下，有说是4000的端口被其他进程占用了，有个网友说他的被FoxitProtect进程占用了，我一查我的，的确也有这个进程，看来是上次装福昕阅读器的结果，于是就强制在任务管理器里把它结束了。果然，浏览器那边立刻就刷出来了。<br><a id="more"></a><br>考虑到并不知道4000会被哪个进程占用，我又查了一下如何通过端口号查占用它的进程，以便能结束它，查到一篇<a href="http://www.cnblogs.com/chenwenbiao/archive/2012/06/24/2559954.html" target="_blank" rel="external">博客</a>，这里仔细介绍了如何在命令行下查询端口被哪个进程占用，以及如何查到进程名称和kill它的方法。</p>
 <h3 id="Windows平台"><a href="#Windows平台" class="headerlink" title="Windows平台"></a>Windows平台</h3><p>使用<code>netstat</code>命令查询PID，然后打开任务管理器，查看对应PID的进程名，结束它。<br>控制台输入：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">netstat -nao | findstr &quot;4000&quot;</span><br></pre></td></tr></table></figure></p>
 <p>返回：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">TCP    127.0.0.1:4000         0.0.0.0:0              LISTENING       10268</span><br><span class="line">TCP    127.0.0.1:4000         127.0.0.1:64572        TIME_WAIT       0</span><br><span class="line">UDP    127.0.0.1:40000        *:*                                    2808</span><br></pre></td></tr></table></figure></p>
 <p>这时可以按前述的打开任务管理器，查找PID为10268的进程，并结束它。当然也可以用命令行的方式：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tasklist | findstr &quot;10268&quot;</span><br></pre></td></tr></table></figure></p>
