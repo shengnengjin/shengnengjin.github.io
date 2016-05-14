@@ -7,20 +7,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="公式$$J_\alpha(x)=\sum _{m=0}^\infty \frac{(-1)^ m}{m! \, \Gamma (m + \alpha + 1)}{\left({\frac{x}{2}}\right)}^{2 m + \alpha }$$
 
-yilia主题里配置有mathjax的代码">
+yilia主题里配置有mathjax的代码.">
 <meta property="og:type" content="article">
 <meta property="og:title" content="test mathjax formula ">
 <meta property="og:url" content="http://shengnengjin.github.io/2016/05/14/test-mathjax-formula/index.html">
 <meta property="og:site_name" content="盛能进的博客">
 <meta property="og:description" content="公式$$J_\alpha(x)=\sum _{m=0}^\infty \frac{(-1)^ m}{m! \, \Gamma (m + \alpha + 1)}{\left({\frac{x}{2}}\right)}^{2 m + \alpha }$$
 
-yilia主题里配置有mathjax的代码">
-<meta property="og:updated_time" content="2016-05-14T12:01:10.482Z">
+yilia主题里配置有mathjax的代码.">
+<meta property="og:updated_time" content="2016-05-14T12:10:03.238Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="test mathjax formula ">
 <meta name="twitter:description" content="公式$$J_\alpha(x)=\sum _{m=0}^\infty \frac{(-1)^ m}{m! \, \Gamma (m + \alpha + 1)}{\left({\frac{x}{2}}\right)}^{2 m + \alpha }$$
 
-yilia主题里配置有mathjax的代码">
+yilia主题里配置有mathjax的代码.">
   
     <link rel="alternative" href="/atom.xml" title="盛能进的博客" type="application/atom+xml">
   
@@ -236,7 +236,16 @@ yilia主题里配置有mathjax的代码">
       
         <h2 id="公式"><a href="#公式" class="headerlink" title="公式"></a>公式</h2><p>$$J_\alpha(x)=\sum _{m=0}^\infty \frac{(-1)^ m}{m! \, \Gamma (m + \alpha + 1)}{\left({\frac{x}{2}}\right)}^{2 m + \alpha }$$</p>
 <blockquote>
-<p>yilia主题里配置有<code>mathjax</code>的代码</p>
+<p>yilia主题里配置有<code>mathjax</code>的代码.</p>
+</blockquote>
+<a id="more"></a>
+<p>似乎也可以自己配置，如果没有自带的代码的话，参考<a href="http://blog.fens.me/hexo-blog-github/" target="_blank" rel="external">blog</a>.</p>
+<blockquote>
+<p>新建一个文件themes/pacman/layout/_partial/mathjax.ejs，找到mathjax的调用代码复制到文件。</p>
+</blockquote>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br></pre></td><td class="code"><pre><span class="line">&lt;!-- mathjax config similar to math.stackexchange --&gt;</span><br><span class="line"></span><br><span class="line">&lt;script type=&quot;text/x-mathjax-config&quot;&gt;</span><br><span class="line">  MathJax.Hub.Config(&#123;</span><br><span class="line">    tex2jax: &#123;</span><br><span class="line">      inlineMath: [ [&apos;$&apos;,&apos;$&apos;], [&quot;\\(&quot;,&quot;\\)&quot;] ],</span><br><span class="line">      processEscapes: true</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;);</span><br><span class="line">&lt;/script&gt;</span><br><span class="line"></span><br><span class="line">&lt;script type=&quot;text/x-mathjax-config&quot;&gt;</span><br><span class="line">    MathJax.Hub.Config(&#123;</span><br><span class="line">      tex2jax: &#123;</span><br><span class="line">        skipTags: [&apos;script&apos;, &apos;noscript&apos;, &apos;style&apos;, &apos;textarea&apos;, &apos;pre&apos;, &apos;code&apos;]</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;);</span><br><span class="line">&lt;/script&gt;</span><br><span class="line"></span><br><span class="line">&lt;script type=&quot;text/x-mathjax-config&quot;&gt;</span><br><span class="line">    MathJax.Hub.Queue(function() &#123;</span><br><span class="line">        var all = MathJax.Hub.getAllJax(), i;</span><br><span class="line">        for(i=0; i &lt; all.length; i += 1) &#123;</span><br><span class="line">            all[i].SourceElement().parentNode.className += &apos; has-jax&apos;;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;);</span><br><span class="line">&lt;/script&gt;</span><br><span class="line"></span><br><span class="line">&lt;script type=&quot;text/javascript&quot; src=&quot;http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML&quot;&gt;</span><br><span class="line">&lt;/script&gt;</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>在themes/某主题/layout/_partial/after_footer.ejs 的最后一行，增加对mathjax的引用.</p>
 </blockquote>
 
       
