@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>盛能进的博客</title>
+  <subtitle>博观约取，厚积薄发。</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://shengnengjin.github.io/"/>
+  <updated>2016-08-02T16:03:05.199Z</updated>
+  <id>http://shengnengjin.github.io/</id>
+  
+  <author>
+    <name>盛能进</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>DOS命令开启笔记本热点</title>
+    <link href="http://shengnengjin.github.io/2016/08/02/DOS%E5%91%BD%E4%BB%A4%E5%BC%80%E5%90%AF%E7%AC%94%E8%AE%B0%E6%9C%AC%E7%83%AD%E7%82%B9/"/>
+    <id>http://shengnengjin.github.io/2016/08/02/DOS命令开启笔记本热点/</id>
+    <published>2016-08-02T15:28:46.000Z</published>
+    <updated>2016-08-02T16:03:05.199Z</updated>
+    
+    <content type="html">&lt;p&gt;家里电信光猫的无线功能太差，几台笔记本和几部手机都连不上，于是想到笔记本有线先连上，然后开启热点。鉴于第三方的无线热点软件太过于复杂，想到用dos命令直接设置笔记本开始无线热点。&lt;br&gt;基本的操作就两句，如下&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;netsh wlan set hostednetwork mode=allow ssid=name key=password&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;netsh wlan start hostednetwork&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;另外将被设成热点的源网络属性里共享选项里的Internet共享选项打勾，并选择共享目的网络为刚刚设置的网络，似乎名字都是&lt;code&gt;本地连接* 13&lt;/code&gt;。&lt;br&gt;&lt;img src=&quot;http://i.imgur.com/WZfqU7s.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;家里电信光猫的无线功能太差，几台笔记本和几部手机都连不上，于是想到笔记本有线先连上，然后开启热点。鉴于第三方的无线热点软件太过于复杂，想到用dos命令直接设置笔记本开始无线热点。&lt;br&gt;基本的操作就两句，如下&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;netsh wlan set hostednetwork mode=allow ssid=name key=password&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;netsh wlan start hostednetwork&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>test mathjax formula </title>
+    <link href="http://shengnengjin.github.io/2016/05/14/test-mathjax-formula/"/>
+    <id>http://shengnengjin.github.io/2016/05/14/test-mathjax-formula/</id>
+    <published>2016-05-14T11:44:05.000Z</published>
+    <updated>2016-05-14T12:11:06.861Z</updated>
+    
+    <content type="html">&lt;h2 id=&quot;公式&quot;&gt;&lt;a href=&quot;#公式&quot; class=&quot;headerlink&quot; title=&quot;公式&quot;&gt;&lt;/a&gt;公式&lt;/h2&gt;&lt;p&gt;$$J_\alpha(x)=\sum _{m=0}^\infty \frac{(-1)^ m}{m! \, \Gamma (m + \alpha + 1)}{\left({\frac{x}{2}}\right)}^{2 m + \alpha }$$&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;yilia主题里配置有&lt;code&gt;mathjax&lt;/code&gt;的代码.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;似乎也可以自己配置，如果没有自带的代码的话，参考&lt;a href=&quot;http://blog.fens.me/hexo-blog-github/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;blog&lt;/a&gt;.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;新建一个文件themes/某主题/layout/_partial/mathjax.ejs，找到mathjax的调用代码复制到文件。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;22&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;23&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;24&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;25&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;26&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;27&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;28&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;29&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;30&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&amp;lt;!-- mathjax config similar to math.stackexchange --&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;lt;script type=&amp;quot;text/x-mathjax-config&amp;quot;&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  MathJax.Hub.Config(&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    tex2jax: &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;      inlineMath: [ [&amp;apos;$&amp;apos;,&amp;apos;$&amp;apos;], [&amp;quot;\\(&amp;quot;,&amp;quot;\\)&amp;quot;] ],&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;      processEscapes: true&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &amp;#125;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;lt;/script&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;lt;script type=&amp;quot;text/x-mathjax-config&amp;quot;&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    MathJax.Hub.Config(&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;      tex2jax: &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        skipTags: [&amp;apos;script&amp;apos;, &amp;apos;noscript&amp;apos;, &amp;apos;style&amp;apos;, &amp;apos;textarea&amp;apos;, &amp;apos;pre&amp;apos;, &amp;apos;code&amp;apos;]&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;      &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &amp;#125;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;lt;/script&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;lt;script type=&amp;quot;text/x-mathjax-config&amp;quot;&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    MathJax.Hub.Queue(function() &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        var all = MathJax.Hub.getAllJax(), i;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        for(i=0; i &amp;lt; all.length; i += 1) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;            all[i].SourceElement().parentNode.className += &amp;apos; has-jax&amp;apos;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &amp;#125;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;lt;/script&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;lt;script type=&amp;quot;text/javascript&amp;quot; src=&amp;quot;http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML&amp;quot;&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;lt;/script&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;blockquote&gt;
+&lt;p&gt;在themes/某主题/layout/_partial/after_footer.ejs 的最后一行，增加对mathjax的引用.&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;公式&quot;&gt;&lt;a href=&quot;#公式&quot; class=&quot;headerlink&quot; title=&quot;公式&quot;&gt;&lt;/a&gt;公式&lt;/h2&gt;&lt;p&gt;$$J_\alpha(x)=\sum _{m=0}^\infty \frac{(-1)^ m}{m! \, \Gamma (m + \alpha + 1)}{\left({\frac{x}{2}}\right)}^{2 m + \alpha }$$&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;yilia主题里配置有&lt;code&gt;mathjax&lt;/code&gt;的代码.&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+    
+      <category term="Hexo" scheme="http://shengnengjin.github.io/tags/Hexo/"/>
+    
+      <category term="Markdown" scheme="http://shengnengjin.github.io/tags/Markdown/"/>
+    
+      <category term="mathjax" scheme="http://shengnengjin.github.io/tags/mathjax/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>本地部署的时候端口被占用之解决</title>
+    <link href="http://shengnengjin.github.io/2016/04/13/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2%E7%9A%84%E6%97%B6%E5%80%99%E7%AB%AF%E5%8F%A3%E8%A2%AB%E5%8D%A0%E7%94%A8%E4%B9%8B%E8%A7%A3%E5%86%B3/"/>
+    <id>http://shengnengjin.github.io/2016/04/13/本地部署的时候端口被占用之解决/</id>
+    <published>2016-04-13T15:56:05.000Z</published>
+    <updated>2016-04-13T16:47:32.282Z</updated>
+    
+    <content type="html">&lt;p&gt;今天准备在本地部署一下，通过&lt;code&gt;http://localhost:4000/&lt;/code&gt;查看博客的状态，突然发现无论怎么刷新、怎么&lt;code&gt;clean&lt;/code&gt;再&lt;code&gt;generate&lt;/code&gt;都无法通过本地查看，而&lt;code&gt;deploy&lt;/code&gt;到git之后却是可以的。自己实在是解决不了，就百度了下，有说是4000的端口被其他进程占用了，有个网友说他的被FoxitProtect进程占用了，我一查我的，的确也有这个进程，看来是上次装福昕阅读器的结果，于是就强制在任务管理器里把它结束了。果然，浏览器那边立刻就刷出来了。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;br&gt;考虑到并不知道4000会被哪个进程占用，我又查了一下如何通过端口号查占用它的进程，以便能结束它，查到一篇&lt;a href=&quot;http://www.cnblogs.com/chenwenbiao/archive/2012/06/24/2559954.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;博客&lt;/a&gt;，这里仔细介绍了如何在命令行下查询端口被哪个进程占用，以及如何查到进程名称和kill它的方法。&lt;/p&gt;
+&lt;h3 id=&quot;Windows平台&quot;&gt;&lt;a href=&quot;#Windows平台&quot; class=&quot;headerlink&quot; title=&quot;Windows平台&quot;&gt;&lt;/a&gt;Windows平台&lt;/h3&gt;&lt;p&gt;使用&lt;code&gt;netstat&lt;/code&gt;命令查询PID，然后打开任务管理器，查看对应PID的进程名，结束它。&lt;br&gt;控制台输入：&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;netstat -nao | findstr &amp;quot;4000&amp;quot;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;返回：&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;TCP    127.0.0.1:4000         0.0.0.0:0              LISTENING       10268&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;TCP    127.0.0.1:4000         127.0.0.1:64572        TIME_WAIT       0&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;UDP    127.0.0.1:40000        *:*                                    2808&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;这时可以按前述的打开任务管理器，查找PID为10268的进程，并结束它。当然也可以用命令行的方式：&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;tasklist | findstr &amp;quot;10268&amp;quot;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;返回：&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;FoxitProtect.exe             10268 Services                   0     11,048 K&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;显然是FoxitProtect这个进程占用了4000的端口，用如下命令kill它：&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;taskkill /pid 10268&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;然而返回了这个：&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;错误: 无法终止 PID 为 10268 的进程。&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;原因: 拒绝访问。&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;查了一番，搞不清楚，还是老老实实在任务管理器里结束吧，反正也找到了PID了。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;执行&lt;code&gt;taskkill&lt;/code&gt;的时候可能会出现：&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;错误: 无法终止 PID 为 10268 的进程。&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;原因: 只能强行终止这个进程（带/F选项）。&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;这个时候输入带&lt;code&gt;/F&lt;/code&gt;的命令应该是可以的：&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;taskkill /F /pid 10268&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;返回：&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;成功: 已终止 PID 为 10268 的进程。&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;似乎还有按进程名来结束进程的方法，比如强行结束记事本进程：&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;taskkill /im notepad.exe /f&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;就这么多。&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;今天准备在本地部署一下，通过&lt;code&gt;http://localhost:4000/&lt;/code&gt;查看博客的状态，突然发现无论怎么刷新、怎么&lt;code&gt;clean&lt;/code&gt;再&lt;code&gt;generate&lt;/code&gt;都无法通过本地查看，而&lt;code&gt;deploy&lt;/code&gt;到git之后却是可以的。自己实在是解决不了，就百度了下，有说是4000的端口被其他进程占用了，有个网友说他的被FoxitProtect进程占用了，我一查我的，的确也有这个进程，看来是上次装福昕阅读器的结果，于是就强制在任务管理器里把它结束了。果然，浏览器那边立刻就刷出来了。&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="Hexo" scheme="http://shengnengjin.github.io/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>北京Python培训</title>
+    <link href="http://shengnengjin.github.io/2016/03/28/%E5%8C%97%E4%BA%ACPython%E5%9F%B9%E8%AE%AD/"/>
+    <id>http://shengnengjin.github.io/2016/03/28/北京Python培训/</id>
+    <published>2016-03-28T12:32:30.000Z</published>
+    <updated>2016-04-13T16:50:47.165Z</updated>
+    
+    <content type="html">&lt;p&gt;2016-03-25 to 2016-03-28&lt;/p&gt;
+&lt;p&gt;#python北京培训&lt;/p&gt;
+&lt;p&gt;#windows下python开发环境配置&lt;/p&gt;
+&lt;p&gt;#python基本语法&lt;/p&gt;
+&lt;p&gt;#python模块&lt;/p&gt;
+&lt;p&gt;#python科学计算&lt;/p&gt;
+&lt;p&gt;#python数据处理&lt;/p&gt;
+&lt;p&gt;#python网络开发&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;2016-03-25 to 2016-03-28&lt;/p&gt;
+&lt;p&gt;#python北京培训&lt;/p&gt;
+&lt;p&gt;#windows下python开发环境配置&lt;/p&gt;
+&lt;p&gt;#python基本语法&lt;/p&gt;
+&lt;p&gt;#python模块&lt;/p&gt;
+&lt;p&gt;#python科学计算&lt;/p&gt;
+&lt;p&gt;#p
+    
+    </summary>
+    
+    
+      <category term="随笔" scheme="http://shengnengjin.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+      <category term="python" scheme="http://shengnengjin.github.io/tags/python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo 部署时的小问题</title>
+    <link href="http://shengnengjin.github.io/2016/03/22/Hexo-%E9%83%A8%E7%BD%B2%E6%97%B6%E7%9A%84%E5%B0%8F%E9%97%AE%E9%A2%98/"/>
+    <id>http://shengnengjin.github.io/2016/03/22/Hexo-部署时的小问题/</id>
+    <published>2016-03-22T15:56:27.000Z</published>
+    <updated>2016-03-22T16:00:00.744Z</updated>
+    
+    <content type="html">&lt;p&gt;今天在windows里也装了下node.js和git，然后又装了hexo，因为还是windows用起来方便点，但是部署的时候，出了问题，hexo貌似不是自带deploy包的，所以要执行一句命令，把它下载下来。&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;npm install hexo-deployer-git --save&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;之后就可以部署了。&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;今天在windows里也装了下node.js和git，然后又装了hexo，因为还是windows用起来方便点，但是部署的时候，出了问题，hexo貌似不是自带deploy包的，所以要执行一句命令，把它下载下来。&lt;br&gt;&lt;figure class=&quot;highlight plai
+    
+    </summary>
+    
+    
+      <category term="Hexo" scheme="http://shengnengjin.github.io/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>记录下这几天的工作</title>
+    <link href="http://shengnengjin.github.io/2016/03/19/%E8%AE%B0%E5%BD%95%E4%B8%8B%E8%BF%99%E5%87%A0%E5%A4%A9%E7%9A%84%E5%B7%A5%E4%BD%9C/"/>
+    <id>http://shengnengjin.github.io/2016/03/19/记录下这几天的工作/</id>
+    <published>2016-03-19T08:28:24.000Z</published>
+    <updated>2016-03-19T10:14:49.475Z</updated>
+    
+    <content type="html">&lt;p&gt;自从上次一时兴起学别人搞了个博客，注册了域名，又注册了github之后，玩了几天，就丢那里了。原因嘛，无非一懒二懒三还是懒…这次又学了学怎么装虚拟机，在虚拟机里安装Ubuntu系统，又把博客捡起来了。这里就随意记录下这几天干了什么吧。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;br&gt;t440s是win8.1的系统，首先是机器很好，用着很顺心。装了VMware workstation pro的虚拟机软件，又下了Ubuntu的系统，实验室的有线网还是很快的，可能是系统镜像在教育网里的原因。在vm里装了Ubuntu系统后，想起了室友说vm有unity模式，就是可以在主机和虚拟机间直接进行文件操作。我想我可以把学习开发工作放在Ubuntu虚拟机里，文字工作需要点好看的界面和便利的操作，就放在主机的win8.1里。所以这个unity就很重要了，比如可以把我写的东西，比如现在这篇直接复制到Ubuntu里，然后在linux下进行hexo博客的维护。我计划是把这些文章和主题配置什么的推送到github里存起来，这样换电脑，这些东西到不至于丢。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;markdown的语法是简单，但是总要查查，这里附个&lt;a href=&quot;http://www.appinn.com/markdown/#link&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;说明&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;如何推送github，我也学习了一下，主要参考了这篇&lt;a href=&quot;http://www.nowamagic.net/academy/detail/48160306&quot; title=&quot;了解并创建Git仓库，以及添加文件到仓库&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;博客&lt;/a&gt;的内容，讲如何添加文件到仓库。另外还有怎么推送，参考这篇&lt;a href=&quot;http://www.jianshu.com/p/dcbb8baa6e36&quot; title=&quot;如何推送github&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;博客&lt;/a&gt;。&lt;br&gt;主要代码就这么几条&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;git add 文件名或者文件夹名&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;git commit -m &amp;quot;注释（就是这些加的文件是干了什么）&amp;quot;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;git remote add origin git@github.com:用户名/远程仓库.git&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;git push origin master&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;自从上次一时兴起学别人搞了个博客，注册了域名，又注册了github之后，玩了几天，就丢那里了。原因嘛，无非一懒二懒三还是懒…这次又学了学怎么装虚拟机，在虚拟机里安装Ubuntu系统，又把博客捡起来了。这里就随意记录下这几天干了什么吧。&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="Markdown" scheme="http://shengnengjin.github.io/tags/Markdown/"/>
+    
+      <category term="随笔" scheme="http://shengnengjin.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+      <category term="git" scheme="http://shengnengjin.github.io/tags/git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Markdownpad注册码</title>
+    <link href="http://shengnengjin.github.io/2015/12/07/Markdownpad%E6%B3%A8%E5%86%8C%E7%A0%81/"/>
+    <id>http://shengnengjin.github.io/2015/12/07/Markdownpad注册码/</id>
+    <published>2015-12-07T07:07:57.000Z</published>
+    <updated>2015-12-07T07:11:38.000Z</updated>
+    
+    <content type="html">&lt;p&gt;&lt;a href=&quot;http://www.jianshu.com/p/9e5cd946696d&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;注册邮箱及注册码&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;自己注册是要收费的…&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;http://www.jianshu.com/p/9e5cd946696d&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;注册邮箱及注册码&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;自己注册是要收费的…&lt;/p&gt;
+
+    
+    </summary>
+    
+    
+      <category term="Markdown" scheme="http://shengnengjin.github.io/tags/Markdown/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>电气工程课程</title>
+    <link href="http://shengnengjin.github.io/2015/12/07/%E7%94%B5%E6%B0%94%E4%B8%93%E4%B8%9A%E9%98%85%E8%AF%BB%E4%B9%A6%E7%9B%AE/"/>
+    <id>http://shengnengjin.github.io/2015/12/07/电气专业阅读书目/</id>
+    <published>2015-12-07T07:00:05.000Z</published>
+    <updated>2015-12-07T07:41:52.000Z</updated>
+    
+    <content type="html">&lt;p&gt;电气工程作为工学学科门类中重要的一级学科，涵盖的知识面十分广泛。下面就我所知简单罗列一下电气工程专业所需的课程。&lt;/p&gt;
+&lt;h2 id=&quot;数学基础&quot;&gt;&lt;a href=&quot;#数学基础&quot; class=&quot;headerlink&quot; title=&quot;数学基础&quot;&gt;&lt;/a&gt;数学基础&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;高等数学&lt;/li&gt;
+&lt;li&gt;线性代数&lt;/li&gt;
+&lt;li&gt;复变函数&lt;/li&gt;
+&lt;li&gt;积分变换&lt;br&gt;…&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;h2 id=&quot;专业基础&quot;&gt;&lt;a href=&quot;#专业基础&quot; class=&quot;headerlink&quot; title=&quot;专业基础&quot;&gt;&lt;/a&gt;专业基础&lt;/h2&gt;&lt;/li&gt;
+&lt;li&gt;电路原理&lt;/li&gt;
+&lt;li&gt;电磁场理论&lt;/li&gt;
+&lt;li&gt;模拟电子技术&lt;/li&gt;
+&lt;li&gt;数字电子技术&lt;/li&gt;
+&lt;li&gt;电力电子技术&lt;/li&gt;
+&lt;li&gt;自动控制原理&lt;/li&gt;
+&lt;li&gt;现代控制原理&lt;/li&gt;
+&lt;li&gt;电力系统基础（稳态）&lt;/li&gt;
+&lt;li&gt;发电厂电气部分&lt;br&gt;…&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;对于一级学科电气工程而言，又分为5个二级学科，分别是电机与电器、电力系统及其自动化、高电压与绝缘技术、电力电子与电力传动、电工理论与新技术。&lt;br&gt;对于电力系统及其自动化而言，需要修读的课程罗列如下。&lt;/p&gt;
+&lt;h2 id=&quot;电力系统及其自动化&quot;&gt;&lt;a href=&quot;#电力系统及其自动化&quot; class=&quot;headerlink&quot; title=&quot;电力系统及其自动化&quot;&gt;&lt;/a&gt;电力系统及其自动化&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;电力系统稳态暂态分析&lt;/li&gt;
+&lt;li&gt;电力系统控制与稳定&lt;/li&gt;
+&lt;li&gt;直流输电&lt;/li&gt;
+&lt;li&gt;电力市场与电力经济&lt;br&gt;…&lt;br&gt;未完待健全…&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;电气工程作为工学学科门类中重要的一级学科，涵盖的知识面十分广泛。下面就我所知简单罗列一下电气工程专业所需的课程。&lt;/p&gt;
+&lt;h2 id=&quot;数学基础&quot;&gt;&lt;a href=&quot;#数学基础&quot; class=&quot;headerlink&quot; title=&quot;数学基础&quot;&gt;&lt;/a&gt;数学基础&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;高等数学&lt;/li&gt;
+&lt;li&gt;线性代数&lt;/li&gt;
+&lt;li&gt;复变函数&lt;/li&gt;
+&lt;li&gt;积分变换&lt;br&gt;…
+    
+    </summary>
+    
+    
+      <category term="电气" scheme="http://shengnengjin.github.io/tags/%E7%94%B5%E6%B0%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>首次写博客</title>
+    <link href="http://shengnengjin.github.io/2015/12/07/%E9%A6%96%E6%AC%A1%E5%86%99%E5%8D%9A%E5%AE%A2/"/>
+    <id>http://shengnengjin.github.io/2015/12/07/首次写博客/</id>
+    <published>2015-12-06T16:21:39.000Z</published>
+    <updated>2015-12-07T07:22:56.000Z</updated>
+    
+    <content type="html">&lt;p&gt;就是为了生成“随笔”这个标签…&lt;br&gt;yilia主题的标签是在文章里添加，然后自动生成的。&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;就是为了生成“随笔”这个标签…&lt;br&gt;yilia主题的标签是在文章里添加，然后自动生成的。&lt;/p&gt;
+
+    
+    </summary>
+    
+    
+      <category term="随笔" scheme="http://shengnengjin.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://shengnengjin.github.io/2015/12/03/hello-world/"/>
+    <id>http://shengnengjin.github.io/2015/12/03/hello-world/</id>
+    <published>2015-12-02T16:58:05.000Z</published>
+    <updated>2015-12-07T05:54:42.000Z</updated>
+    
+    <content type="html">&lt;p&gt;Welcome to &lt;a href=&quot;http://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;http://hexo.io/docs/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;http://hexo.io/docs/troubleshooting.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;Quick-Start&quot;&gt;&lt;a href=&quot;#Quick-Start&quot; class=&quot;headerlink&quot; title=&quot;Quick Start&quot;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;&lt;h3 id=&quot;Create-a-new-post&quot;&gt;&lt;a href=&quot;#Create-a-new-post&quot; class=&quot;headerlink&quot; title=&quot;Create a new post&quot;&gt;&lt;/a&gt;Create a new post&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo new &lt;span class=&quot;string&quot;&gt;&quot;My New Post&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;More info: &lt;a href=&quot;http://hexo.io/docs/writing.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Writing&lt;/a&gt;&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Run-server&quot;&gt;&lt;a href=&quot;#Run-server&quot; class=&quot;headerlink&quot; title=&quot;Run server&quot;&gt;&lt;/a&gt;Run server&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo server&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;More info: &lt;a href=&quot;http://hexo.io/docs/server.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Server&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Generate-static-files&quot;&gt;&lt;a href=&quot;#Generate-static-files&quot; class=&quot;headerlink&quot; title=&quot;Generate static files&quot;&gt;&lt;/a&gt;Generate static files&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo generate&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;More info: &lt;a href=&quot;http://hexo.io/docs/generating.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Generating&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Deploy-to-remote-sites&quot;&gt;&lt;a href=&quot;#Deploy-to-remote-sites&quot; class=&quot;headerlink&quot; title=&quot;Deploy to remote sites&quot;&gt;&lt;/a&gt;Deploy to remote sites&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo deploy&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;More info: &lt;a href=&quot;http://hexo.io/docs/deployment.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Deployment&lt;/a&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Welcome to &lt;a href=&quot;http://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;http://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;http://hexo.io/docs/troubleshooting.html&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;Quick-Start&quot;&gt;&lt;a href=&quot;#Quick-Start&quot; class=&quot;headerlink&quot; title=&quot;Quick Start&quot;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;&lt;h3 id=&quot;Create-a-new-post&quot;&gt;&lt;a href=&quot;#Create-a-new-post&quot; class=&quot;headerlink&quot; title=&quot;Create a new post&quot;&gt;&lt;/a&gt;Create a new post&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo new &lt;span class=&quot;string&quot;&gt;&quot;My New Post&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;More info: &lt;a href=&quot;http://hexo.io/docs/writing.html&quot;&gt;Writing&lt;/a&gt;&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="Hexo" scheme="http://shengnengjin.github.io/tags/Hexo/"/>
+    
+  </entry>
+  
+</feed>

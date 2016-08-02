@@ -4,6 +4,21 @@
 
     
   <url>
+    <loc>http://shengnengjin.github.io/2016/08/02/DOS%E5%91%BD%E4%BB%A4%E5%BC%80%E5%90%AF%E7%AC%94%E8%AE%B0%E6%9C%AC%E7%83%AD%E7%82%B9/</loc>
+    <lastmod>2016-08-02T16:03:05.199Z</lastmod>
+    <data>
+        <display>
+        <title>DOS命令开启笔记本热点</title>
+        <pubTime>2016-08-02T15:28:46.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://shengnengjin.github.io/2016/05/14/test-mathjax-formula/</loc>
     <lastmod>2016-05-14T12:11:06.861Z</lastmod>
     <data>
@@ -11,9 +26,9 @@
         <title>test mathjax formula </title>
         <pubTime>2016-05-14T11:44:05.000Z</pubTime>
         
-        <tag>Markdown</tag>
-         
         <tag>Hexo</tag>
+         
+        <tag>Markdown</tag>
          
         <tag>mathjax</tag>
          
