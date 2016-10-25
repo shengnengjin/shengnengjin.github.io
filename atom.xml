@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://shengnengjin.github.io/"/>
-  <updated>2016-08-02T16:06:54.817Z</updated>
+  <updated>2016-10-25T14:44:52.185Z</updated>
   <id>http://shengnengjin.github.io/</id>
   
   <author>
@@ -14,6 +14,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Long Time No see</title>
+    <link href="http://shengnengjin.github.io/2016/10/25/Long-Time-No-see/"/>
+    <id>http://shengnengjin.github.io/2016/10/25/Long-Time-No-see/</id>
+    <published>2016-10-25T14:32:36.000Z</published>
+    <updated>2016-10-25T14:44:52.185Z</updated>
+    
+    <content type="html">&lt;h1 id=&quot;又是好久没写了&quot;&gt;&lt;a href=&quot;#又是好久没写了&quot; class=&quot;headerlink&quot; title=&quot;又是好久没写了&quot;&gt;&lt;/a&gt;又是好久没写了&lt;/h1&gt;&lt;p&gt;看看上次的日期是8月份的，那会儿还在家鼓捣无线网。这都2个多月了，每个月都不知道在忙些什么。&lt;/p&gt;
+&lt;h1 id=&quot;这阵子要忙着写论文了&quot;&gt;&lt;a href=&quot;#这阵子要忙着写论文了&quot; class=&quot;headerlink&quot; title=&quot;这阵子要忙着写论文了&quot;&gt;&lt;/a&gt;这阵子要忙着写论文了&lt;/h1&gt;&lt;p&gt;包括项目论文和自己的毕业要求论文。&lt;/p&gt;
+&lt;h1 id=&quot;忙起来！！！&quot;&gt;&lt;a href=&quot;#忙起来！！！&quot; class=&quot;headerlink&quot; title=&quot;忙起来！！！&quot;&gt;&lt;/a&gt;忙起来！！！&lt;/h1&gt;</content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;又是好久没写了&quot;&gt;&lt;a href=&quot;#又是好久没写了&quot; class=&quot;headerlink&quot; title=&quot;又是好久没写了&quot;&gt;&lt;/a&gt;又是好久没写了&lt;/h1&gt;&lt;p&gt;看看上次的日期是8月份的，那会儿还在家鼓捣无线网。这都2个多月了，每个月都不知道在忙些什么。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="随笔" scheme="http://shengnengjin.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
   
   <entry>
     <title>DOS命令开启笔记本热点</title>
@@ -196,9 +218,9 @@
     </summary>
     
     
-      <category term="Markdown" scheme="http://shengnengjin.github.io/tags/Markdown/"/>
-    
       <category term="随笔" scheme="http://shengnengjin.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+      <category term="Markdown" scheme="http://shengnengjin.github.io/tags/Markdown/"/>
     
       <category term="git" scheme="http://shengnengjin.github.io/tags/git/"/>
     
