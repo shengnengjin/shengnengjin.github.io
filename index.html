@@ -120,7 +120,7 @@
 				
 				<section class="switch-part switch-part2">
 					<div class="widget tagcloud" id="js-tagcloud">
-						<a href="/tags/DOS/" style="font-size: 10px;">DOS</a> <a href="/tags/Hexo/" style="font-size: 20px;">Hexo</a> <a href="/tags/Markdown/" style="font-size: 15px;">Markdown</a> <a href="/tags/git/" style="font-size: 10px;">git</a> <a href="/tags/mathjax/" style="font-size: 10px;">mathjax</a> <a href="/tags/python/" style="font-size: 10px;">python</a> <a href="/tags/电气/" style="font-size: 10px;">电气</a> <a href="/tags/随笔/" style="font-size: 20px;">随笔</a>
+						<a href="/tags/C/" style="font-size: 10px;">C++</a> <a href="/tags/DOS/" style="font-size: 10px;">DOS</a> <a href="/tags/Hexo/" style="font-size: 20px;">Hexo</a> <a href="/tags/MATLAB/" style="font-size: 10px;">MATLAB</a> <a href="/tags/Markdown/" style="font-size: 15px;">Markdown</a> <a href="/tags/git/" style="font-size: 10px;">git</a> <a href="/tags/mathjax/" style="font-size: 10px;">mathjax</a> <a href="/tags/python/" style="font-size: 10px;">python</a> <a href="/tags/电气/" style="font-size: 10px;">电气</a> <a href="/tags/随笔/" style="font-size: 20px;">随笔</a>
 					</div>
 				</section>
 				
@@ -191,6 +191,80 @@
 	</div>
 </nav>
       <div class="body-wrap">
+  
+    <article id="post-MATLAB调用编译器生成动态链接库dll并在VS2010中使用之小结" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2016/12/01/MATLAB调用编译器生成动态链接库dll并在VS2010中使用之小结/" class="article-date">
+  	<time datetime="2016-11-30T16:49:58.000Z" itemprop="datePublished">2016-12-01</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/12/01/MATLAB调用编译器生成动态链接库dll并在VS2010中使用之小结/">MATLAB调用编译器生成动态链接库dll并在VS2010中使用之小结</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>还没写完呢~</p>
+<hr>
+<p><strong>起因：</strong><br>实验室同学的项目，鉴于MATLAB编程测试的便捷性，同学就用MATLAB编了一堆代码，到最后甲方的方案要用C++时，又不想再费劲改了。于是想到用MATLAB编译成dll供C++调用。</p>
+<hr>
+<p><strong>重点：</strong></p>
+<ol>
+<li>MATLAB编译成dll</li>
+<li>VS中的设置和代码里的调用方法</li>
+</ol>
+<hr>
+<p><strong>注意：</strong></p>
+<ol>
+<li>该dll的调用必须要有对应版本的mcr（MATLAB Compiler Runtime）或者干脆就是已安装好对应版本的MATLAB了</li>
+<li>编写程序时，VS里要包含MATLAB的库目录和包含目录，还要添加一些附加依赖库lib</li>
+<li>系统的环境变量要设置好，才能运行。</li>
+<li>注意编程的环境和运行的环境的区别。</li>
+<li>nargout
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/C/">C++</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/MATLAB/">MATLAB</a></li></ul>
+	</div>
+
+      
+
+      
+        <p class="article-more-link">
+          <a  href="/2016/12/01/MATLAB调用编译器生成动态链接库dll并在VS2010中使用之小结/#more">继续阅读 >></a>
+        </p>
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
   
     <article id="post-Long-Time-No-see" class="article article-type-post" itemscope itemprop="blogPost">
   
@@ -705,61 +779,6 @@
         <p class="article-more-link">
           <a  href="/2015/12/07/电气专业阅读书目/#more">继续阅读 >></a>
         </p>
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-  
-    <article id="post-首次写博客" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2015/12/07/首次写博客/" class="article-date">
-  	<time datetime="2015-12-06T16:21:39.000Z" itemprop="datePublished">2015-12-07</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2015/12/07/首次写博客/">首次写博客</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>就是为了生成“随笔”这个标签…<br>yilia主题的标签是在文章里添加，然后自动生成的。</p>
-
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/随笔/">随笔</a></li></ul>
-	</div>
-
-      
-
       
       <div class="clearfix"></div>
     </div>

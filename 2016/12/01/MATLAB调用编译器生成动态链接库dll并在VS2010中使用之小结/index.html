@@ -3,17 +3,54 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Tag: 随笔 | 盛能进的博客</title>
+  <title>MATLAB调用编译器生成动态链接库dll并在VS2010中使用之小结 | 盛能进的博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="盛能进的博客，Sheng Nengjin&apos;s blog.">
-<meta property="og:type" content="website">
-<meta property="og:title" content="盛能进的博客">
-<meta property="og:url" content="http://shengnengjin.github.io/tags/随笔/index.html">
+  <meta name="description" content="还没写完呢~
+
+起因：实验室同学的项目，鉴于MATLAB编程测试的便捷性，同学就用MATLAB编了一堆代码，到最后甲方的方案要用C++时，又不想再费劲改了。于是想到用MATLAB编译成dll供C++调用。
+
+重点：
+
+MATLAB编译成dll
+VS中的设置和代码里的调用方法
+
+
+注意：
+
+该dll的调用必须要有对应版本的mcr（MATLAB Compiler Runtime）或者干脆就是已安装好对">
+<meta property="og:type" content="article">
+<meta property="og:title" content="MATLAB调用编译器生成动态链接库dll并在VS2010中使用之小结">
+<meta property="og:url" content="http://shengnengjin.github.io/2016/12/01/MATLAB调用编译器生成动态链接库dll并在VS2010中使用之小结/index.html">
 <meta property="og:site_name" content="盛能进的博客">
-<meta property="og:description" content="盛能进的博客，Sheng Nengjin&apos;s blog.">
+<meta property="og:description" content="还没写完呢~
+
+起因：实验室同学的项目，鉴于MATLAB编程测试的便捷性，同学就用MATLAB编了一堆代码，到最后甲方的方案要用C++时，又不想再费劲改了。于是想到用MATLAB编译成dll供C++调用。
+
+重点：
+
+MATLAB编译成dll
+VS中的设置和代码里的调用方法
+
+
+注意：
+
+该dll的调用必须要有对应版本的mcr（MATLAB Compiler Runtime）或者干脆就是已安装好对">
+<meta property="og:updated_time" content="2016-11-30T16:59:21.188Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="盛能进的博客">
-<meta name="twitter:description" content="盛能进的博客，Sheng Nengjin&apos;s blog.">
+<meta name="twitter:title" content="MATLAB调用编译器生成动态链接库dll并在VS2010中使用之小结">
+<meta name="twitter:description" content="还没写完呢~
+
+起因：实验室同学的项目，鉴于MATLAB编程测试的便捷性，同学就用MATLAB编了一堆代码，到最后甲方的方案要用C++时，又不想再费劲改了。于是想到用MATLAB编译成dll供C++调用。
+
+重点：
+
+MATLAB编译成dll
+VS中的设置和代码里的调用方法
+
+
+注意：
+
+该dll的调用必须要有对应版本的mcr（MATLAB Compiler Runtime）或者干脆就是已安装好对">
   
     <link rel="alternative" href="/atom.xml" title="盛能进的博客" type="application/atom+xml">
   
@@ -190,156 +227,131 @@
 		</header>				
 	</div>
 </nav>
-      <div class="body-wrap">
+      <div class="body-wrap"><article id="post-MATLAB调用编译器生成动态链接库dll并在VS2010中使用之小结" class="article article-type-post" itemscope itemprop="blogPost">
   
-  
-    
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2016" class="archive-year">2016</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2016/10/25/Long-Time-No-see/" class="archive-article-date">
-  	<time datetime="2016-10-25T14:32:36.000Z" itemprop="datePublished">10月 25</time>
+    <div class="article-meta">
+      <a href="/2016/12/01/MATLAB调用编译器生成动态链接库dll并在VS2010中使用之小结/" class="article-date">
+  	<time datetime="2016-11-30T16:49:58.000Z" itemprop="datePublished">2016-12-01</time>
 </a>
-        </div>
-    	 
+    </div>
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2016/10/25/Long-Time-No-see/">Long Time No see</a>
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      MATLAB调用编译器生成动态链接库dll并在VS2010中使用之小结
     </h1>
   
 
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/随笔/">随笔</a></li></ul>
-	</div>
-
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2016/03/28/北京Python培训/" class="archive-article-date">
-  	<time datetime="2016-03-28T12:32:30.000Z" itemprop="datePublished">3月 28</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2016/03/28/北京Python培训/">北京Python培训</a>
-    </h1>
-  
-
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/python/">python</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/随笔/">随笔</a></li></ul>
-	</div>
-
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2016/03/19/记录下这几天的工作/" class="archive-article-date">
-  	<time datetime="2016-03-19T08:28:24.000Z" itemprop="datePublished">3月 19</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2016/03/19/记录下这几天的工作/">记录下这几天的工作</a>
-    </h1>
-  
-
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Markdown/">Markdown</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/git/">git</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/随笔/">随笔</a></li></ul>
-	</div>
-
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
+      </header>
       
-        </div></section>
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2015" class="archive-year">2015</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2015/12/07/首次写博客/" class="archive-article-date">
-  	<time datetime="2015-12-06T16:21:39.000Z" itemprop="datePublished">12月 7</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2015/12/07/首次写博客/">首次写博客</a>
-    </h1>
-  
-
-        <div class="article-info info-on-right">
-          
+      <div class="article-info article-info-post">
+        
 	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/随笔/">随笔</a></li></ul>
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/C/">C++</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/MATLAB/">MATLAB</a></li></ul>
 	</div>
 
-          
+        
 
-        </div>
         <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-  
-    </div></section>
-  
-
+      </div>
+      
     
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>还没写完呢~</p>
+<hr>
+<p><strong>起因：</strong><br>实验室同学的项目，鉴于MATLAB编程测试的便捷性，同学就用MATLAB编了一堆代码，到最后甲方的方案要用C++时，又不想再费劲改了。于是想到用MATLAB编译成dll供C++调用。</p>
+<hr>
+<p><strong>重点：</strong></p>
+<ol>
+<li>MATLAB编译成dll</li>
+<li>VS中的设置和代码里的调用方法</li>
+</ol>
+<hr>
+<p><strong>注意：</strong></p>
+<ol>
+<li>该dll的调用必须要有对应版本的mcr（MATLAB Compiler Runtime）或者干脆就是已安装好对应版本的MATLAB了</li>
+<li>编写程序时，VS里要包含MATLAB的库目录和包含目录，还要添加一些附加依赖库lib</li>
+<li>系统的环境变量要设置好，才能运行。</li>
+<li>注意编程的环境和运行的环境的区别。</li>
+<li>nargout<a id="more"></a></li>
+<li>m函数编写</li>
+<li>mwArray类！</li>
+<li>vs里怎么导入lib和h文件</li>
+<li>vs设置成64位编译平台！！</li>
+<li>MATLAB打包成java package？</li>
+<li>环境变量太大的处理方法！</li>
+<li>……</li>
+</ol>
+<hr>
+<p><strong>具体过程</strong></p>
+<p>待续</p>
+<hr>
+
+      
+    </div>
+    
+  </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/2016/10/25/Long-Time-No-see/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">Long Time No see</div>
+      <strong class="article-nav-caption">></strong>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+<div class="share">
+	<!-- JiaThis Button BEGIN -->
+	<div class="jiathis_style">
+		<span class="jiathis_txt">分享到：</span>
+		<a class="jiathis_button_tsina"></a>
+		<a class="jiathis_button_cqq"></a>
+		<a class="jiathis_button_douban"></a>
+		<a class="jiathis_button_weixin"></a>
+		<a class="jiathis_button_tumblr"></a>
+		<a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
+	</div>
+	<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=1405949716054953" charset="utf-8"></script>
+	<!-- JiaThis Button END -->
+</div>
+
+
+
+<div class="duoshuo">
+	<!-- 多说评论框 start -->
+	<div class="ds-thread" data-thread-key="MATLAB调用编译器生成动态链接库dll并在VS2010中使用之小结" data-title="MATLAB调用编译器生成动态链接库dll并在VS2010中使用之小结" data-url="http://shengnengjin.github.io/2016/12/01/MATLAB调用编译器生成动态链接库dll并在VS2010中使用之小结/"></div>
+	<!-- 多说评论框 end -->
+	<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+	<script type="text/javascript">
+	var duoshuoQuery = {short_name:"shengnengjin-hexo"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		 || document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+	</script>
+	<!-- 多说公共JS代码 end -->
+</div>
+
+
+
 
 </div>
       <footer id="footer">
@@ -375,9 +387,9 @@
 		mathjax: true,
 		animate: true,
 		isHome: false,
-		isPost: false,
+		isPost: true,
 		isArchive: false,
-		isTag: true,
+		isTag: false,
 		isCategory: false,
 		open_in_new: false
 	}

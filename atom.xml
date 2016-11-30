@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://shengnengjin.github.io/"/>
-  <updated>2016-10-25T14:44:52.185Z</updated>
+  <updated>2016-11-30T16:59:21.188Z</updated>
   <id>http://shengnengjin.github.io/</id>
   
   <author>
@@ -14,6 +14,73 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>MATLAB调用编译器生成动态链接库dll并在VS2010中使用之小结</title>
+    <link href="http://shengnengjin.github.io/2016/12/01/MATLAB%E8%B0%83%E7%94%A8%E7%BC%96%E8%AF%91%E5%99%A8%E7%94%9F%E6%88%90%E5%8A%A8%E6%80%81%E9%93%BE%E6%8E%A5%E5%BA%93dll%E5%B9%B6%E5%9C%A8VS2010%E4%B8%AD%E4%BD%BF%E7%94%A8%E4%B9%8B%E5%B0%8F%E7%BB%93/"/>
+    <id>http://shengnengjin.github.io/2016/12/01/MATLAB调用编译器生成动态链接库dll并在VS2010中使用之小结/</id>
+    <published>2016-11-30T16:49:58.000Z</published>
+    <updated>2016-11-30T16:59:21.188Z</updated>
+    
+    <content type="html">&lt;p&gt;还没写完呢~&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;起因：&lt;/strong&gt;&lt;br&gt;实验室同学的项目，鉴于MATLAB编程测试的便捷性，同学就用MATLAB编了一堆代码，到最后甲方的方案要用C++时，又不想再费劲改了。于是想到用MATLAB编译成dll供C++调用。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;重点：&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;MATLAB编译成dll&lt;/li&gt;
+&lt;li&gt;VS中的设置和代码里的调用方法&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;注意：&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;该dll的调用必须要有对应版本的mcr（MATLAB Compiler Runtime）或者干脆就是已安装好对应版本的MATLAB了&lt;/li&gt;
+&lt;li&gt;编写程序时，VS里要包含MATLAB的库目录和包含目录，还要添加一些附加依赖库lib&lt;/li&gt;
+&lt;li&gt;系统的环境变量要设置好，才能运行。&lt;/li&gt;
+&lt;li&gt;注意编程的环境和运行的环境的区别。&lt;/li&gt;
+&lt;li&gt;nargout&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;m函数编写&lt;/li&gt;
+&lt;li&gt;mwArray类！&lt;/li&gt;
+&lt;li&gt;vs里怎么导入lib和h文件&lt;/li&gt;
+&lt;li&gt;vs设置成64位编译平台！！&lt;/li&gt;
+&lt;li&gt;MATLAB打包成java package？&lt;/li&gt;
+&lt;li&gt;环境变量太大的处理方法！&lt;/li&gt;
+&lt;li&gt;……&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;具体过程&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;待续&lt;/p&gt;
+&lt;hr&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;还没写完呢~&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;起因：&lt;/strong&gt;&lt;br&gt;实验室同学的项目，鉴于MATLAB编程测试的便捷性，同学就用MATLAB编了一堆代码，到最后甲方的方案要用C++时，又不想再费劲改了。于是想到用MATLAB编译成dll供C++调用。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;重点：&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;MATLAB编译成dll&lt;/li&gt;
+&lt;li&gt;VS中的设置和代码里的调用方法&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;注意：&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;该dll的调用必须要有对应版本的mcr（MATLAB Compiler Runtime）或者干脆就是已安装好对应版本的MATLAB了&lt;/li&gt;
+&lt;li&gt;编写程序时，VS里要包含MATLAB的库目录和包含目录，还要添加一些附加依赖库lib&lt;/li&gt;
+&lt;li&gt;系统的环境变量要设置好，才能运行。&lt;/li&gt;
+&lt;li&gt;注意编程的环境和运行的环境的区别。&lt;/li&gt;
+&lt;li&gt;nargout
+    
+    </summary>
+    
+    
+      <category term="MATLAB" scheme="http://shengnengjin.github.io/tags/MATLAB/"/>
+    
+      <category term="C++" scheme="http://shengnengjin.github.io/tags/C/"/>
+    
+  </entry>
   
   <entry>
     <title>Long Time No see</title>
