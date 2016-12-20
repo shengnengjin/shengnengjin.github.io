@@ -4,9 +4,9 @@
   <subtitle>博观约取，厚积薄发。</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://shengnengjin.github.io/"/>
+  <link href="http://myblog.shengnengjin.cn/"/>
   <updated>2016-11-30T16:59:21.188Z</updated>
-  <id>http://shengnengjin.github.io/</id>
+  <id>http://myblog.shengnengjin.cn/</id>
   
   <author>
     <name>盛能进</name>
@@ -17,8 +17,8 @@
   
   <entry>
     <title>MATLAB调用编译器生成动态链接库dll并在VS2010中使用之小结</title>
-    <link href="http://shengnengjin.github.io/2016/12/01/MATLAB%E8%B0%83%E7%94%A8%E7%BC%96%E8%AF%91%E5%99%A8%E7%94%9F%E6%88%90%E5%8A%A8%E6%80%81%E9%93%BE%E6%8E%A5%E5%BA%93dll%E5%B9%B6%E5%9C%A8VS2010%E4%B8%AD%E4%BD%BF%E7%94%A8%E4%B9%8B%E5%B0%8F%E7%BB%93/"/>
-    <id>http://shengnengjin.github.io/2016/12/01/MATLAB调用编译器生成动态链接库dll并在VS2010中使用之小结/</id>
+    <link href="http://myblog.shengnengjin.cn/2016/12/01/MATLAB%E8%B0%83%E7%94%A8%E7%BC%96%E8%AF%91%E5%99%A8%E7%94%9F%E6%88%90%E5%8A%A8%E6%80%81%E9%93%BE%E6%8E%A5%E5%BA%93dll%E5%B9%B6%E5%9C%A8VS2010%E4%B8%AD%E4%BD%BF%E7%94%A8%E4%B9%8B%E5%B0%8F%E7%BB%93/"/>
+    <id>http://myblog.shengnengjin.cn/2016/12/01/MATLAB调用编译器生成动态链接库dll并在VS2010中使用之小结/</id>
     <published>2016-11-30T16:49:58.000Z</published>
     <updated>2016-11-30T16:59:21.188Z</updated>
     
@@ -76,16 +76,16 @@
     </summary>
     
     
-      <category term="MATLAB" scheme="http://shengnengjin.github.io/tags/MATLAB/"/>
+      <category term="MATLAB" scheme="http://myblog.shengnengjin.cn/tags/MATLAB/"/>
     
-      <category term="C++" scheme="http://shengnengjin.github.io/tags/C/"/>
+      <category term="C++" scheme="http://myblog.shengnengjin.cn/tags/C/"/>
     
   </entry>
   
   <entry>
-    <title>Long Time No see</title>
-    <link href="http://shengnengjin.github.io/2016/10/25/Long-Time-No-see/"/>
-    <id>http://shengnengjin.github.io/2016/10/25/Long-Time-No-see/</id>
+    <title>Long Time No See</title>
+    <link href="http://myblog.shengnengjin.cn/2016/10/25/Long-Time-No-see/"/>
+    <id>http://myblog.shengnengjin.cn/2016/10/25/Long-Time-No-see/</id>
     <published>2016-10-25T14:32:36.000Z</published>
     <updated>2016-10-25T14:44:52.185Z</updated>
     
@@ -100,14 +100,14 @@
     </summary>
     
     
-      <category term="随笔" scheme="http://shengnengjin.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
+      <category term="随笔" scheme="http://myblog.shengnengjin.cn/tags/%E9%9A%8F%E7%AC%94/"/>
     
   </entry>
   
   <entry>
     <title>DOS命令开启笔记本热点</title>
-    <link href="http://shengnengjin.github.io/2016/08/02/DOS%E5%91%BD%E4%BB%A4%E5%BC%80%E5%90%AF%E7%AC%94%E8%AE%B0%E6%9C%AC%E7%83%AD%E7%82%B9/"/>
-    <id>http://shengnengjin.github.io/2016/08/02/DOS命令开启笔记本热点/</id>
+    <link href="http://myblog.shengnengjin.cn/2016/08/02/DOS%E5%91%BD%E4%BB%A4%E5%BC%80%E5%90%AF%E7%AC%94%E8%AE%B0%E6%9C%AC%E7%83%AD%E7%82%B9/"/>
+    <id>http://myblog.shengnengjin.cn/2016/08/02/DOS命令开启笔记本热点/</id>
     <published>2016-08-02T15:28:46.000Z</published>
     <updated>2016-08-02T16:06:54.817Z</updated>
     
@@ -123,14 +123,14 @@
     </summary>
     
     
-      <category term="DOS" scheme="http://shengnengjin.github.io/tags/DOS/"/>
+      <category term="DOS" scheme="http://myblog.shengnengjin.cn/tags/DOS/"/>
     
   </entry>
   
   <entry>
-    <title>test mathjax formula </title>
-    <link href="http://shengnengjin.github.io/2016/05/14/test-mathjax-formula/"/>
-    <id>http://shengnengjin.github.io/2016/05/14/test-mathjax-formula/</id>
+    <title>Test Mathjax Formula </title>
+    <link href="http://myblog.shengnengjin.cn/2016/05/14/test-mathjax-formula/"/>
+    <id>http://myblog.shengnengjin.cn/2016/05/14/test-mathjax-formula/</id>
     <published>2016-05-14T11:44:05.000Z</published>
     <updated>2016-05-14T12:11:06.861Z</updated>
     
@@ -159,18 +159,18 @@
     </summary>
     
     
-      <category term="Hexo" scheme="http://shengnengjin.github.io/tags/Hexo/"/>
+      <category term="Hexo" scheme="http://myblog.shengnengjin.cn/tags/Hexo/"/>
     
-      <category term="Markdown" scheme="http://shengnengjin.github.io/tags/Markdown/"/>
+      <category term="Markdown" scheme="http://myblog.shengnengjin.cn/tags/Markdown/"/>
     
-      <category term="mathjax" scheme="http://shengnengjin.github.io/tags/mathjax/"/>
+      <category term="mathjax" scheme="http://myblog.shengnengjin.cn/tags/mathjax/"/>
     
   </entry>
   
   <entry>
     <title>本地部署的时候端口被占用之解决</title>
-    <link href="http://shengnengjin.github.io/2016/04/13/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2%E7%9A%84%E6%97%B6%E5%80%99%E7%AB%AF%E5%8F%A3%E8%A2%AB%E5%8D%A0%E7%94%A8%E4%B9%8B%E8%A7%A3%E5%86%B3/"/>
-    <id>http://shengnengjin.github.io/2016/04/13/本地部署的时候端口被占用之解决/</id>
+    <link href="http://myblog.shengnengjin.cn/2016/04/13/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2%E7%9A%84%E6%97%B6%E5%80%99%E7%AB%AF%E5%8F%A3%E8%A2%AB%E5%8D%A0%E7%94%A8%E4%B9%8B%E8%A7%A3%E5%86%B3/"/>
+    <id>http://myblog.shengnengjin.cn/2016/04/13/本地部署的时候端口被占用之解决/</id>
     <published>2016-04-13T15:56:05.000Z</published>
     <updated>2016-04-13T16:47:32.282Z</updated>
     
@@ -198,14 +198,14 @@
     </summary>
     
     
-      <category term="Hexo" scheme="http://shengnengjin.github.io/tags/Hexo/"/>
+      <category term="Hexo" scheme="http://myblog.shengnengjin.cn/tags/Hexo/"/>
     
   </entry>
   
   <entry>
     <title>北京Python培训</title>
-    <link href="http://shengnengjin.github.io/2016/03/28/%E5%8C%97%E4%BA%ACPython%E5%9F%B9%E8%AE%AD/"/>
-    <id>http://shengnengjin.github.io/2016/03/28/北京Python培训/</id>
+    <link href="http://myblog.shengnengjin.cn/2016/03/28/%E5%8C%97%E4%BA%ACPython%E5%9F%B9%E8%AE%AD/"/>
+    <id>http://myblog.shengnengjin.cn/2016/03/28/北京Python培训/</id>
     <published>2016-03-28T12:32:30.000Z</published>
     <updated>2016-04-13T16:50:47.165Z</updated>
     
@@ -232,16 +232,16 @@
     </summary>
     
     
-      <category term="随笔" scheme="http://shengnengjin.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
+      <category term="随笔" scheme="http://myblog.shengnengjin.cn/tags/%E9%9A%8F%E7%AC%94/"/>
     
-      <category term="python" scheme="http://shengnengjin.github.io/tags/python/"/>
+      <category term="python" scheme="http://myblog.shengnengjin.cn/tags/python/"/>
     
   </entry>
   
   <entry>
     <title>Hexo 部署时的小问题</title>
-    <link href="http://shengnengjin.github.io/2016/03/22/Hexo-%E9%83%A8%E7%BD%B2%E6%97%B6%E7%9A%84%E5%B0%8F%E9%97%AE%E9%A2%98/"/>
-    <id>http://shengnengjin.github.io/2016/03/22/Hexo-部署时的小问题/</id>
+    <link href="http://myblog.shengnengjin.cn/2016/03/22/Hexo-%E9%83%A8%E7%BD%B2%E6%97%B6%E7%9A%84%E5%B0%8F%E9%97%AE%E9%A2%98/"/>
+    <id>http://myblog.shengnengjin.cn/2016/03/22/Hexo-部署时的小问题/</id>
     <published>2016-03-22T15:56:27.000Z</published>
     <updated>2016-03-22T16:00:00.744Z</updated>
     
@@ -256,14 +256,14 @@
     </summary>
     
     
-      <category term="Hexo" scheme="http://shengnengjin.github.io/tags/Hexo/"/>
+      <category term="Hexo" scheme="http://myblog.shengnengjin.cn/tags/Hexo/"/>
     
   </entry>
   
   <entry>
     <title>记录下这几天的工作</title>
-    <link href="http://shengnengjin.github.io/2016/03/19/%E8%AE%B0%E5%BD%95%E4%B8%8B%E8%BF%99%E5%87%A0%E5%A4%A9%E7%9A%84%E5%B7%A5%E4%BD%9C/"/>
-    <id>http://shengnengjin.github.io/2016/03/19/记录下这几天的工作/</id>
+    <link href="http://myblog.shengnengjin.cn/2016/03/19/%E8%AE%B0%E5%BD%95%E4%B8%8B%E8%BF%99%E5%87%A0%E5%A4%A9%E7%9A%84%E5%B7%A5%E4%BD%9C/"/>
+    <id>http://myblog.shengnengjin.cn/2016/03/19/记录下这几天的工作/</id>
     <published>2016-03-19T08:28:24.000Z</published>
     <updated>2016-03-19T10:14:49.475Z</updated>
     
@@ -285,18 +285,18 @@
     </summary>
     
     
-      <category term="随笔" scheme="http://shengnengjin.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
+      <category term="Markdown" scheme="http://myblog.shengnengjin.cn/tags/Markdown/"/>
     
-      <category term="Markdown" scheme="http://shengnengjin.github.io/tags/Markdown/"/>
+      <category term="随笔" scheme="http://myblog.shengnengjin.cn/tags/%E9%9A%8F%E7%AC%94/"/>
     
-      <category term="git" scheme="http://shengnengjin.github.io/tags/git/"/>
+      <category term="git" scheme="http://myblog.shengnengjin.cn/tags/git/"/>
     
   </entry>
   
   <entry>
     <title>Markdownpad注册码</title>
-    <link href="http://shengnengjin.github.io/2015/12/07/Markdownpad%E6%B3%A8%E5%86%8C%E7%A0%81/"/>
-    <id>http://shengnengjin.github.io/2015/12/07/Markdownpad注册码/</id>
+    <link href="http://myblog.shengnengjin.cn/2015/12/07/Markdownpad%E6%B3%A8%E5%86%8C%E7%A0%81/"/>
+    <id>http://myblog.shengnengjin.cn/2015/12/07/Markdownpad注册码/</id>
     <published>2015-12-07T07:07:57.000Z</published>
     <updated>2015-12-07T07:11:38.000Z</updated>
     
@@ -313,14 +313,14 @@
     </summary>
     
     
-      <category term="Markdown" scheme="http://shengnengjin.github.io/tags/Markdown/"/>
+      <category term="Markdown" scheme="http://myblog.shengnengjin.cn/tags/Markdown/"/>
     
   </entry>
   
   <entry>
     <title>电气工程课程</title>
-    <link href="http://shengnengjin.github.io/2015/12/07/%E7%94%B5%E6%B0%94%E4%B8%93%E4%B8%9A%E9%98%85%E8%AF%BB%E4%B9%A6%E7%9B%AE/"/>
-    <id>http://shengnengjin.github.io/2015/12/07/电气专业阅读书目/</id>
+    <link href="http://myblog.shengnengjin.cn/2015/12/07/%E7%94%B5%E6%B0%94%E4%B8%93%E4%B8%9A%E9%98%85%E8%AF%BB%E4%B9%A6%E7%9B%AE/"/>
+    <id>http://myblog.shengnengjin.cn/2015/12/07/电气专业阅读书目/</id>
     <published>2015-12-07T07:00:05.000Z</published>
     <updated>2015-12-07T07:41:52.000Z</updated>
     
@@ -362,14 +362,14 @@
     </summary>
     
     
-      <category term="电气" scheme="http://shengnengjin.github.io/tags/%E7%94%B5%E6%B0%94/"/>
+      <category term="电气" scheme="http://myblog.shengnengjin.cn/tags/%E7%94%B5%E6%B0%94/"/>
     
   </entry>
   
   <entry>
     <title>首次写博客</title>
-    <link href="http://shengnengjin.github.io/2015/12/07/%E9%A6%96%E6%AC%A1%E5%86%99%E5%8D%9A%E5%AE%A2/"/>
-    <id>http://shengnengjin.github.io/2015/12/07/首次写博客/</id>
+    <link href="http://myblog.shengnengjin.cn/2015/12/07/%E9%A6%96%E6%AC%A1%E5%86%99%E5%8D%9A%E5%AE%A2/"/>
+    <id>http://myblog.shengnengjin.cn/2015/12/07/首次写博客/</id>
     <published>2015-12-06T16:21:39.000Z</published>
     <updated>2015-12-07T07:22:56.000Z</updated>
     
@@ -384,14 +384,14 @@
     </summary>
     
     
-      <category term="随笔" scheme="http://shengnengjin.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
+      <category term="随笔" scheme="http://myblog.shengnengjin.cn/tags/%E9%9A%8F%E7%AC%94/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="http://shengnengjin.github.io/2015/12/03/hello-world/"/>
-    <id>http://shengnengjin.github.io/2015/12/03/hello-world/</id>
+    <link href="http://myblog.shengnengjin.cn/2015/12/03/hello-world/"/>
+    <id>http://myblog.shengnengjin.cn/2015/12/03/hello-world/</id>
     <published>2015-12-02T16:58:05.000Z</published>
     <updated>2015-12-07T05:54:42.000Z</updated>
     
@@ -415,7 +415,7 @@
     </summary>
     
     
-      <category term="Hexo" scheme="http://shengnengjin.github.io/tags/Hexo/"/>
+      <category term="Hexo" scheme="http://myblog.shengnengjin.cn/tags/Hexo/"/>
     
   </entry>
   
