@@ -137,9 +137,9 @@
     </summary>
     
     
-      <category term="Hexo" scheme="http://myblog.shengnengjin.cn/tags/Hexo/"/>
-    
       <category term="Markdown" scheme="http://myblog.shengnengjin.cn/tags/Markdown/"/>
+    
+      <category term="Hexo" scheme="http://myblog.shengnengjin.cn/tags/Hexo/"/>
     
       <category term="mathjax" scheme="http://myblog.shengnengjin.cn/tags/mathjax/"/>
     
