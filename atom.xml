@@ -243,18 +243,14 @@
     <link href="http://myblog.shengnengjin.cn/2016/03/19/%E8%AE%B0%E5%BD%95%E4%B8%8B%E8%BF%99%E5%87%A0%E5%A4%A9%E7%9A%84%E5%B7%A5%E4%BD%9C/"/>
     <id>http://myblog.shengnengjin.cn/2016/03/19/记录下这几天的工作/</id>
     <published>2016-03-19T08:28:24.000Z</published>
-    <updated>2016-03-19T10:14:49.475Z</updated>
+    <updated>2016-12-20T17:34:54.334Z</updated>
     
     <content type="html">&lt;p&gt;自从上次一时兴起学别人搞了个博客，注册了域名，又注册了github之后，玩了几天，就丢那里了。原因嘛，无非一懒二懒三还是懒…这次又学了学怎么装虚拟机，在虚拟机里安装Ubuntu系统，又把博客捡起来了。这里就随意记录下这几天干了什么吧。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;br&gt;t440s是win8.1的系统，首先是机器很好，用着很顺心。装了VMware workstation pro的虚拟机软件，又下了Ubuntu的系统，实验室的有线网还是很快的，可能是系统镜像在教育网里的原因。在vm里装了Ubuntu系统后，想起了室友说vm有unity模式，就是可以在主机和虚拟机间直接进行文件操作。我想我可以把学习开发工作放在Ubuntu虚拟机里，文字工作需要点好看的界面和便利的操作，就放在主机的win8.1里。所以这个unity就很重要了，比如可以把我写的东西，比如现在这篇直接复制到Ubuntu里，然后在linux下进行hexo博客的维护。我计划是把这些文章和主题配置什么的推送到github里存起来，这样换电脑，这些东西到不至于丢。&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;markdown的语法是简单，但是总要查查，这里附个&lt;a href=&quot;http://www.appinn.com/markdown/#link&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;说明&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;如何推送github，我也学习了一下，主要参考了这篇&lt;a href=&quot;http://www.nowamagic.net/academy/detail/48160306&quot; title=&quot;了解并创建Git仓库，以及添加文件到仓库&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;博客&lt;/a&gt;的内容，讲如何添加文件到仓库。另外还有怎么推送，参考这篇&lt;a href=&quot;http://www.jianshu.com/p/dcbb8baa6e36&quot; title=&quot;如何推送github&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;博客&lt;/a&gt;。&lt;br&gt;主要代码就这么几条&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;git add 文件名或者文件夹名&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;git commit -m &amp;quot;注释（就是这些加的文件是干了什么）&amp;quot;&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;git remote add origin git@github.com:用户名/远程仓库.git&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;git push origin master&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;如何推送github，我也学习了一下，主要参考了博客&lt;a href=&quot;http://www.nowamagic.net/academy/detail/48160306&quot; title=&quot;了解并创建Git仓库，以及添加文件到仓库&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://www.nowamagic.net/academy/detail/48160306&lt;/a&gt;的内容，讲如何添加文件到仓库。另外还有怎么推送，参考博客&lt;a href=&quot;http://www.jianshu.com/p/dcbb8baa6e36&quot; title=&quot;如何推送github&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://www.jianshu.com/p/dcbb8baa6e36&lt;/a&gt;。&lt;br&gt;主要代码就这么几条&lt;/p&gt;
 &lt;/blockquote&gt;
-</content>
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&amp;gt;`git add 文件名或者文件夹名`&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;gt;`git commit -m &amp;quot;注释（就是这些加的文件是干了什么）&amp;quot;`&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;gt;`git remote add origin git@github.com:用户名/远程仓库.git`&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;gt;`git push origin master`&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</content>
     
     <summary type="html">
     
